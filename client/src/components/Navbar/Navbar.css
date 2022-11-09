@@ -1,6 +1,6 @@
-nav {
+.main-nav {
     min-height: 50px;
-    height: 60px;
+    height: 50px;
     width: 100%;
     margin: 0% auto;
     border-top: solid 3px #ef8236;
@@ -10,7 +10,6 @@ nav {
     top: 0%;
     left: 0%;
     background-color: #f8f9f9;
-    overflow: auto;
     display: flex;
     justify-content: center;
     /*center the content on the x-axis or horizontally*/
