@@ -22,6 +22,7 @@
     color: white;
     border: none;
     text-decoration: none;
+    cursor: pointer;
     transition: 0.3s;
 }
 
