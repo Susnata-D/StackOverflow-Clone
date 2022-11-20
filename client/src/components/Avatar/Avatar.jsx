@@ -1,22 +1,20 @@
 import React from 'react'
 
-const Avatar = (props) => {
-
+const Avatar = ({ value, backgroundColor, px, py, color, borderRadius, fontSize, cursor }) => {
     const style = {
-        backgroundColor: props.backgroundColor,
-        padding: `${props.px} ${props.py}`,
-        color: props.color || "black",
-        borderRadius: props.borderRadius,
-        fontSize: props.fontSize,
+        backgroundColor,
+        padding: `${py} ${px}`,
+        color: color || 'black',
+        borderRadius,
+        fontSize,
         textAlign: "center",
-        cursor: props.cursor || null,
-        overflow: "hidden",
+        cursor: cursor || null,
         textDecoration: "none"
     }
 
     return (
         <div style={style}>
-            {props.value}
+            {value}
         </div>
     )
 }
